@@ -1,0 +1,66 @@
+{
+    "Registros": {
+        "voto": [],
+        "Usuario": []
+    },
+    "Peliculas": {
+        "Titulo": ["El Rey Leon","Harry Potter y la piedra filosofal","Superman Returns","Final Fantasy VII Advent Children","American Pie", "ElGranStan",
+        "Kill Bill","Machete", "Un puente hacia Terabitia", "Destino Final 5"],
+        "Fecha":["Año 1994", "Año 2001","Año 2006", "Año 2005", "Año 2007","Año 2008","Año 2004", "Año 2010","Año 2007", "Año 2011" ],
+        "Director":["Rob Minkoff", "Chris Columbus", "Bryan Singer", "Tetsuya Nomura","Andrew Waller","Rob Schneider","Quentin Tarantino","Robert Rodriguez y Ethan Maniquis","Gábor Csupó","Steven Quale"],
+        "Sipnopsis": ["La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, ...",
+                    "Harry Potter se ha quedado huérfano y vive en casa de sus abominables tíos y el insoportable primo Dudley. Harry se siente muy triste y solo, hasta que un buen día recibe una carta ...",
+                "Nacido en un planeta que murió mucho tiempo atrás—se ha criado en una granja en Kansas por sus padres adoptivos, los Kent.Al joven Kal-El le ponen el nombre de Clark Kent, y aunque se ha criado entre seres humanos...",
+                    "Han pasado dos años desde que las ruinas de Midgar se convirtieron en el testamento de los sacrificios realizados para traer la paz. Sin embargo, una nueva amenaza acecha a la humanidad...",
+                    "Erik, Ryan, y Cooze comienzan la universidad e ingresan en la Fraternidad Beta, presidida por el legendario Dwight Stifler.Pero el problema comienza cuando ...",
+                    "Stan Minton (Rob Schneider) es un egocéntrico timador de éxito que lo tiene todo: una preciosa mujer trofeo (Jennifer Morrison), una mansión en los suburbios, un lujoso deportivo ...",
+                    "En Kill Bill: Volumen 1, una mujer embarazada, identificada como la Novia, es masacrada y disparada en la cabeza en el ensayo de su boda en una pequeña iglesia al sur de Texas...",
+                    "Machete es una película de 2010 dirigida por Robert Rodríguez e Ethan Maniquis, protagonizada por Danny Trejo, la cual narra las andanzas de un ex agente federal mexicano que tiene que emigrar...",
+                    "Una historia mágica sobre el poder de la amistad. Sinopsis de Un puente hacia Terabithia: Ésta es la historia de una amistad que cambia las vidas de Leslie y Jess, dos estudiantes...",
+                    "En Destino final 5, la Muerte está tan omnipresente como siempre, y se desata cuando la premonición de un hombre salva a un grupo de trabajadores del hundimiento de un puente colgante..."],
+        "Portada": ["reyleoncara.jpg","harrypottercara.jpg","supermancara.jpg","adventchildrencara.jpg","americanpiebetacara.jpg","elgranstancara.jpg","killbillcara.jpg","machetecara.jpg","terabitiacara.jpg","destinofinal5cara.jpg"],
+        "Background": ["reyleon.jpg","harrypotter.jpg","superman.jpg","adventchildren.jpg","americanpiebeta.jpg","elgranstan.jpg","killbill.jpg","machete.jpg","terabitia.jpg","destinofinal5.jpg"],
+        "Horarios":[
+                ["10:45",
+                "12:30",
+                "16:00"
+            ],[
+                "11:45",
+                "13:30",
+                "17:00"
+            ],[
+                "10:35",
+                "13:35",
+                "18:00"
+            ],[
+                "10:40",
+                "14:30",
+                "19:00"
+            ],[
+                "12:45",
+                "20:30",
+                "15:00"
+            ],[
+                "10:45",
+                "13:30",
+                "17:00"
+            ],[
+                "11:45",
+                "17:30",
+                "22:00"
+            ],[
+                "08:45",
+                "10:30",
+                "13:00"
+            ],[
+                "09:45",
+                "12:30",
+                "19:30"
+            ],[
+                "11:45",
+                "16:30",
+                "23:00"
+            ]]
+
+    }
+}

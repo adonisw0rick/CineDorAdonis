@@ -1,0 +1,327 @@
+{
+    "butaca1": {
+        "estado": "Libre",
+        "x": "100",
+        "y": "120",
+        "tooltip": 1
+    },
+    "butaca2": {
+        "estado": "Ocupado",
+        "x": "100",
+        "y": "220",
+        "tooltip": 2
+    },
+    "butaca3": {
+        "estado": "Libre",
+        "x": "100",
+        "y": "320",
+        "tooltip": 3
+    },
+    "butaca4": {
+        "estado": "Libre",
+        "x": "100",
+        "y": "420",
+        "tooltip": 4
+    },
+    "butaca5": {
+        "estado": "Libre",
+        "x": "100",
+        "y": "520",
+        "tooltip": 5
+    },
+    "butaca6": {
+        "estado": "Libre",
+        "x": "200",
+        "y": "120",
+        "tooltip": 6
+    },
+    "butaca7": {
+        "estado": "Libre",
+        "x": "200",
+        "y": "220",
+        "tooltip": 7
+    },
+    "butaca8": {
+        "estado": "Ocupado",
+        "x": "200",
+        "y": "320",
+        "tooltip": 8
+    },
+    "butaca9": {
+        "estado": "Libre",
+        "x": "200",
+        "y": "420",
+        "tooltip": 9
+    },
+    "butaca10": {
+        "estado": "Libre",
+        "x": "200",
+        "y": "520",
+        "tooltip": 10
+    },
+    "butaca11": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "120",
+        "tooltip": 11
+    },
+    "butaca12": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "220",
+        "tooltip": 12
+    },
+    "butaca13": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "320",
+        "tooltip": 13
+    },
+    "butaca14": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "420",
+        "tooltip": 14
+    },
+    "butaca15": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "520",
+        "tooltip": 15
+    }
+    ,
+    "butaca16": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "120",
+        "tooltip": 16
+    },
+    "butaca17": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "220",
+        "tooltip": 17
+    },
+    "butaca18": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "320",
+        "tooltip": 18
+    },
+    "butaca19": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "420",
+        "tooltip": 19
+    },
+    "butaca20": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "520",
+        "tooltip": 20
+    },
+    "butaca21": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "120",
+        "tooltip": 21
+    },
+    "butaca22": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "220",
+        "tooltip": 22
+    },
+    "butaca23": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "320",
+        "tooltip": 23
+    },
+    "butaca24": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "420",
+        "tooltip": 24
+    },
+    "butaca25": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "520",
+        "tooltip": 25
+    },
+    "butaca26": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "120",
+        "tooltip": 26
+    },
+    "butaca27": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "220",
+        "tooltip": 27
+    },
+    "butaca28": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "320",
+        "tooltip": 28
+    },
+    "butaca29": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "420",
+        "tooltip": 29
+    },
+    "butaca30": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "520",
+        "tooltip": 30
+    },
+    "butaca31": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "120",
+        "tooltip": 31
+    },
+    "butaca32": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "220",
+        "tooltip": 32
+    },
+    "butaca33": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "320",
+        "tooltip": 33
+    },
+    "butaca34": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "420",
+        "tooltip": 34
+    },
+    "butaca35": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "520",
+        "tooltip": 35
+    },
+    "butaca36": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "120",
+        "tooltip": 36
+    },
+    "butaca37": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "220",
+        "tooltip": 37
+    },
+    "butaca38": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "320",
+        "tooltip": 38
+    },
+    "butaca39": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "420",
+        "tooltip": 39
+    },
+    "butaca40": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "520",
+        "tooltip": 40
+    },
+    "butaca41": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "120",
+        "tooltip": 41
+    },
+    "butaca42": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "220",
+        "tooltip": 42
+    },
+    "butaca43": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "320",
+        "tooltip": 43
+    },
+    "butaca44": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "420",
+        "tooltip": 44
+    },
+    "butaca45": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "520",
+        "tooltip": 45
+    },
+    "butaca46": {
+        "estado": "Libre",
+        "x": "100",
+        "y": "620",
+        "tooltip": 46
+    },
+    "butaca47": {
+        "estado": "Libre",
+        "x": "200",
+        "y": "620",
+        "tooltip": 47
+    },
+    "butaca48": {
+        "estado": "Libre",
+        "x": "300",
+        "y": "620",
+        "tooltip": 48
+    },
+    "butaca49": {
+        "estado": "Libre",
+        "x": "500",
+        "y": "620",
+        "tooltip": 49
+    },
+    "butaca50": {
+        "estado": "Libre",
+        "x": "600",
+        "y": "620",
+        "tooltip": 50
+    },
+    "butaca51": {
+        "estado": "Libre",
+        "x": "700",
+        "y": "620",
+        "tooltip": 51
+    },
+    "butaca52": {
+        "estado": "Libre",
+        "x": "900",
+        "y": "620",
+        "tooltip": 52
+    },
+    "butaca53": {
+        "estado": "Libre",
+        "x": "1000",
+        "y": "620",
+        "tooltip": 53
+    },
+    "butaca54": {
+        "estado": "Libre",
+        "x": "1100",
+        "y": "620",
+        "tooltip": 54
+    }
+}

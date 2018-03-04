@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+div.cara{
+    width: 12em;
+    height: 20em;
+    background-size: 100% 100%; 
+}
+
+div.indicador{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+div#compra{
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background-color: blue;
+    font-size: 2.5em;
+    padding: 0.2em;
+    display: none;
+}
+#lds-spinner{
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    margin-left: 40vw;
+    background-color: white;
+    z-index: 3;
+    display: none;
+}
+#listapelis{
+    display: flex;
+    background-color: rgb(0, 65, 139);
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+div.caratula{
+    width: 12em;
+    border: 0.5em ridge black;
+    margin: 2em;
+}
+
+div.titulo{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+}
+#imageninfo{
+    position:relative;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    height: 70%;
+}
+div.caratula { 
+   color: white; 
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+}
+div.caratula:hover {
+   position: relative; 
+   top: -3px; 
+   left: -3px; 
+   text-shadow: 1px 1px black, 
+                2px 2px black,
+                3px 3px black,
+                4px 4px black,
+                5px 5px black,
+                6px 6px black,
+                7px 7px black;
+    box-shadow: 10px 10px 32px 10px rgba(0,0,0,0.75);
+}
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header{
+    background-color: #3db8e5;
+}
+
+body > header > img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+footer{
+    background-color: black;
+}
+footer img{
+    display: block;
+    margin: 0 auto;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer a{
+    color: #3db8e5;
+}
+
+@media only screen and (max-width: 500px) {
+    #lds-spinner{
+    margin-left: -10vw;
+}
+}

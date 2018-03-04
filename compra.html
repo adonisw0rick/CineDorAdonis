@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles3.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <title>BenriyaCine</title>
+</head>
+
+<body>
+    <header>
+        <img src="logotipo2.svg" />
+    </header>
+    <svg id="lds-spinner" width="500px" height="500px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background: none;">
+        <g transform="rotate(0 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(30 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(60 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(90 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(120 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(150 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(180 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(210 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(240 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(270 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(300 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+        <g transform="rotate(330 50 50)">
+            <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="black">
+                <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate>
+            </rect>
+        </g>
+    </svg>
+    <div id="container">
+        <div class="indicador">3. Haz tu pago</div>
+        <div class="row factura">
+            
+            <form class="col s12">
+                <div class="row">
+                    <h1 class="fh1">Factura</h1>
+                    <div id="factura">
+                        <div id="cabfactura">
+                            <div>Día</div>
+                            <div>Horario</div>
+                            <div>Nº asiento</div>
+                            <div>Nº Fila</div>
+                            <div>Precio entrada</div>
+                        </div>
+                        <div id="contfactura"></div>
+                    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="titu" type="text" class="validate">
+                        <label for="titu">Titular de la tarjeta</label>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Correo electrónico</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email1" type="email" class="validate">
+                        <label for="email1">Confirmar Correo electrónico</label>
+                    </div>
+                    <p>
+                        <input type="checkbox" id="test6" />
+                        <label for="test6">He leído y estoy de acuerdo con los Términos y condiciones</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="test8" />
+                        <label for="test8">Subscribirse al boletín de noticias de BenriyaCine</label>
+                    </p>
+                    </form>
+                    
+                    
+                </div>
+                <a href="bbva.html">
+            <button id="confirma" class="btn waves-effect waves-light">
+                Confirmar Pago</a>
+            
+            </button>
+        </div>
+        
+
+        
+    </div>
+
+
+    <footer>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+            />
+        </a>
+        <br />
+        <p>Este obra está bajo una
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</footer>
+    </p>
+    <script src="compra.js"></script>
+</body>
+
+</html>

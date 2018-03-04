@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <link type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css" media="screen" rel="stylesheet" id="linkestilo" />
+    <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <title>BenriyaCine</title>
+</head>
+<body>
+    
+
+
+    <header>
+        <img alt="Logotipo de BenriyaCine" src="logotipo2.svg"/>
+        <svg id="lds-spinner" width="500px" height="500px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="background: none;">
+            <g transform="rotate(0 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.9166666666666666s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(30 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.8333333333333334s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(60 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.75s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(90 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.6666666666666666s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(120 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.5833333333333334s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(150 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.5s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(180 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.4166666666666667s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(210 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.3333333333333333s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(240 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.25s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(270 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.16666666666666666s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(300 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="-0.08333333333333333s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+            <g transform="rotate(330 50 50)">
+                <rect x="47" y="24" rx="9.4" ry="4.8" width="6" height="12" fill="white">
+                    <animate attributeName="opacity" values="1;0" times="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animate>
+                </rect>
+            </g>
+        </svg>
+    </header>
+    <div id="compra">¡Compra efectuada con éxito!</div>
+    <div class="indicador">1. Selecciona tus entradas</div>
+    <div id="dialog-form" title="Información de la película">
+        <p class="validateTips">Has seleccionado
+            <span id="tituloinfo"></span>
+        </p>
+        <img id="imageninfo" src="" />
+        <p id="anio"></p>
+        <p>Director:
+            <span id="direct"></span>
+        </p>
+        <p id="sipnosis"></p>
+    </div>
+    
+    <div id="dialog-form2" title="Compra de entradas">
+        <p class="validateTips">Has seleccionado
+            <span id="havotado"></span>, rellena el siguiente formulario si quieres entrar en el sorteo de 2 entradas a DisneyLand</p>
+        <form>
+            <fieldset>
+                <label for="fecha">
+                    <h2>Fechas disponibles:</h2>
+                </label>
+                <select id="fecha">
+                    <option value="">Selecciona un día</option>
+                    <option value="1">Lunes</option>
+                    <option value="2">Miércoles</option>
+                    <option value="3">Sábado</option>
+                </select>
+                <label for="hora">
+                    Horario Disponible:
+                </label>
+                <select id="hora">
+                    <option value="">Selecciona una sesion</option>
+                    <option id="hora1"value="1"></option>
+                    <option id="hora2"value="2"></option>
+                    <option id="hora3"value="3"></option>
+                </select>
+                <label for="numeroentradas">
+                    Número de Entradas
+                </label>
+                <input size="5" type="number" name="numeroentradas" min="1" max="99" id="numeroentradas" class="text ui-widget-content ui-corner-all">
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+    <div id="container">
+        <div id="listapelis">
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+            <div class="caratula">
+                <div class="cara"></div>
+                <div class="titulo"></div>
+                <button></button>
+            </div>
+        </div>
+    </div>
+    <footer><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+        />
+    </a>
+    <br /><p>Este obra está bajo una
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.</footer>
+    </p><script src="pelis.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.Libre {
+            fill: gray;
+        }
+    
+        .Ocupado {
+            fill: red;
+        }
+    
+        .Seleccionado {
+            fill: green;
+        }
+        svg{
+            width: 100%;
+            height: 80vh;
+        }
+        #svgcont{
+            height: 50vh;
+            width: 75%;
+            background: linear-gradient(to right, greenyellow, #3db8e5, #3db8e5);}
+        #container{
+            display: flex;
+            flex-flow: wrap row;
+        }
+        #leyenda{
+            height: 50vh;
+            width: 25%;
+            background: linear-gradient(to right, #3db8e5, #3db8e5 , greenyellow);
+            overflow-y: scroll;
+        }
+        ::-webkit-scrollbar { 
+    display: none; 
+}
+        li img{
+            width: 14%;
+            height: 14%;
+        }
+        li{
+            position: relative;
+            width: 80%;
+            display: flex;
+            font-size: 1em;
+            flex-flow: row wrap;
+        }
+        #lds-spinner{
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 0vw;
+    background-color: white;
+    z-index: 3;
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    svg{
+            width: 100%;
+        }
+        #svgcont{
+            display: block;
+            width: 100%;
+        }
+        #container{
+            display: flex;
+            flex-flow: column row;
+        }
+        #leyenda{
+            display: block;
+            width: 100%;
+            background: linear-gradient(to right, #3db8e5, #3db8e5 , greenyellow);
+            overflow-y: scroll;
+        }
+}
